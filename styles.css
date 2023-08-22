@@ -197,3 +197,28 @@ body[data-nav="true"] > #nav-toggle > .close {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
+
+#menu-icon {
+width:40%;
+height: auto;
+}
+
+#icon-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+#cross-icon {
+  width: 2vw;
+  display: none;
+}
+
+#icon-container.open #menu-icon {
+  display: none;
+}
+
+#icon-container.open #cross-icon {
+  display: block;
+}

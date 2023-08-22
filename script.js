@@ -1,3 +1,14 @@
 const toggleNav = () => {
-  document.body.dataset.nav = document.body.dataset.nav === "true" ? "false" : "true";
-}
+  const iconContainer = document.getElementById("icon-container");
+  const body = document.body;
+
+ 
+  body.dataset.nav = body.dataset.nav === "true" ? "false" : "true";
+
+ 
+  if (body.dataset.nav === "true") {
+    iconContainer.classList.add("open");
+  } else {
+    iconContainer.classList.remove("open");
+  }
+};
