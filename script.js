@@ -12,3 +12,4 @@ const toggleNav = () => {
     iconContainer.classList.remove("open");
   }
 };
+
