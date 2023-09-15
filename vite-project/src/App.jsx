@@ -12,9 +12,9 @@ function App() {
     <>
          <Routes>
           <Route path ="/" element={<Home />}  />
-          <Route path ="/mariners" element ={<Contact />} />
-          <Route path ="/nba" element ={<Projects />} />
-          <Route path ="/seahawks" element ={<About />} />
+          <Route path ="/contact" element ={<Contact />} />
+          <Route path ="/projects" element ={<Projects />} />
+          <Route path ="/about" element ={<About />} />
         </Routes>
     </>
   )
