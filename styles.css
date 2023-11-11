@@ -310,7 +310,8 @@ height: 100%;
   background-color: #EBE8E2;
 }
 
-a {
-  text-decoration: none;
-}
+a { color: #000080 }
 
+.temp-header {
+  color:white;
+}
