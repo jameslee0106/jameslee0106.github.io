@@ -1,59 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Lee | Dev  </title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <main>
-      <div id="myAudio">
-        <audio controls autoplay loop>
-          <source src="./assets/background.mp3" />
-        </audio>
-      </div>
-      <div id="container">
-        <div class="header-wrapper">
-        <h1 class="header">Hey there, I'm James.</h1>
-        <h1 class="header">Full stack developer.</h1>
-        </div>
-      </div>
-    </main>
 
-    <nav>
-      <div id="nav-links">
-        <a class="nav-link" href="./index.html">
-          <h2 class="nav-link-label rubik-font">Home</h2>
-          <img
-            class="nav-link-image "
-            src="https://insightpestnorthwest.com/wp-content/uploads/2021/04/andrea-leopardi-QfhbK2pY0Ao-unsplash-1.jpg"
-          />
-        </a>
-        <a class="nav-link" href="./about.html">
-          <h2 class="nav-link-label rubik-font">About Me</h2>
-          <img class="nav-link-image " src="./assets/About.jpg" />
-        </a>
-        <a class="nav-link" href="./projects.html">
-          <h2 class="nav-link-label rubik-font">Projects</h2>
-          <img class="nav-link-image " src="./assets/login.jpg" />
-        </a>
-        <a class="nav-link" href="./contact.html">
-          <h2 class="nav-link-label rubik-font">Contact</h2>
-          <img class="nav-link-image " src="./assets/PNW.jpg" />
-        </a>
-      </div>
-    </nav>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <div class="menu">
-    <button id="nav-toggle" type="button" onclick="toggleNav()">
-    <div id="icon-container">
-      <img id="menu-icon" src="./assets/menu.png" >
-      <img id="cross-icon" src="./assets/cross.png" >
+  <title>James Lee | Developer | Accountant | Entrepreneur</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Laura
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
+        <li><a class="nav-link scrollto" href="#services">Services</a></li>
+        <li><a class="nav-link scrollto " href="#portfolio">Projects</a></li>
+       
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>James Lee</h1>
+      <h2>Software Developer, Accountant, and Entrepreneur</h2>
+      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
-    </button>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Me Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <span>About Me</span>
+          <h2>About Me</h2>
+          <p>Developer | Accountant | Entrepreneur</p>
+        </div>
+
+        <div class="row">
+          <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-lg-8 d-flex flex-column align-items-stretch">
+            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>James Lee</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://jameslee0106.github.io/" target="_blank"><span>https://jameslee0106.github.io/</span></a></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <a href="https://github.com/jameslee0106" target="_blank"><span>https://github.com/jameslee0106</span></a></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/james-lee-361820149/" target="_blank"><span>https://www.linkedin.com/in/james-lee-361820149/</span></a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>26</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Accounting and Finance</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>leejames0106@gmail.com</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Seattle, WA</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-n4">
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-archive" style="color: #b57de0;"></i>
+                    <span data-purecounter-start="1997" data-purecounter-end="2020" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Kicked off my professional career working as a tax accountant at Bader Martin, P.S.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-briefcase" style="color: #b57de0;"></i>
+                    <span data-purecounter-start="1997" data-purecounter-end="2022" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Co-founded an LLC with a primary focus on Web 3.0/Blockchain technologies.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-lightbulb" style="color: #b57de0;"></i>
+                    <span data-purecounter-start="1997" data-purecounter-end="2023" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Discovered an interest in software development and began my journey as a self-taught full-stack developer</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-pc-display" style="color: #b57de0;"></i>
+                    <span data-purecounter-start="1997" data-purecounter-end="2023" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Current coding instructor and trainer at Coding With Kids.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+
+            <div class="skills-content ps-lg-4">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS/Tailwind/Bootstrap <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Python <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">C# <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Java <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Me Section -->
+
+    <!-- ======= My Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Resume</span>
+          <h2>My Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>James Lee</h4>
+              <p><em>CPA candidate with prior experience in public accounting and extensive knowledge in software development/full-stack engineering</em></p>
+              <p>
+              <ul>
+                <li>(425) 346-9224</li>
+                <li>leejames0106@gmail.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Business Administration - BBA, Accounting and Finance</h4>
+              <h5>2017 - 2020</h5>
+              <p><em>University of Washington Bothell School of Business</em></p>
+              <p>Extra-curricular activities include: IRS VITA and Korean Student Association (Club President)</p>
+            </div>
+            <div class="resume-item">
+              <h4>Associate's Degree</h4>
+              <h5>2015 - 2017</h5>
+              <p><em>Shoreline Community College</em></p>
+              <p>Extra-curricular activities include: DECA (Competed in the international competition after placing 3rd in state for Business Ethics)</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Trainer</h4>
+              <h5>Nov 2023 - Present</h5>
+              <p><em>Coding With Kids, Redmond, WA </em></p>
+              <p>
+              <ul>
+                <li>Guided new instructors through comprehensive onboarding processes, ensuring a smooth transition into the company's teaching protocols and systems</li>
+                <li>Acted as a point of contact for instructors, offering support, clarification, and guidance on company-related
+                  inquiries or procedures </li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Coding Instructor</h4>
+              <h5>Apr 2023 - Present</h5>
+              <p><em>Coding With Kids, Redmond, WA</em></p>
+              <p>
+              <ul>
+                <li>Led web development camps; instructed students in coding fundamentals</li>
+                <li>Developed curriculums for K-12 students in Web/Mobile/Game Development, Scratch, and Python</li>
+                <li>Guided students with no experience in coding to become advanced programmers</li>
+                <li>Taught students to develop their critical thinking and problem-solving skills</li>
+                <li>Averaged a high feedback rating score of 4.83/5.0</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Co-Founder</h4>
+              <h5>Jan 2022 - Oct 2022</h5>
+              <p><em>Tiny Dreamers LLC, Lynnwood, WA </em></p>
+              <p>
+              <ul>
+                <li>Co-founded an LLC with a primary focus on Web3/Blockchain technologies and the production of physical products, including high performance keyboards</li>
+                <li>Created a marketing plan and took charge as the marketing coordinator </li>
+                <li>Achieved 1000+ following on Twitter in a span of two months</li>
+                <li>Led the UX/UI design for our website using Figma and helped develop the front-end</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Tax Accountant</h4>
+              <h5>Nov 2020 - Feb 2022</h5>
+              <p><em>Bader Martin P.S., Seattle, WA </em></p>
+              <p>
+              <ul>
+                <li>Prepared individual, trusts, and business tax returns in compliance with U.S. federal and state law</li>
+                <li>Researched tax issues and analyzed financial statements for accurate reporting purposes</li>
+                <li>Attained working proficiency in Excel, ProSystem fx Engagement, GoSystem, and CCH Axcess</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End My Resume Section -->
+
+    <!-- ======= My Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>SKILLS</span>
+          <h2>SKILLS</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-browser-chrome"></i></div>
+              <h4 class="title"><a href="">Front End</a></h4>
+              <p class="description">JavaScript, React, HTML5, CSS3, TailwindCSS, Bootstrap</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-tools"></i></div>
+              <h4 class="title"><a href="">Tools</a></h4>
+              <p class="description">Git, Agile methodology, Excel, ProSystem fx Engagement, GoSystem, CCH Axcess </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-hdd-network"></i></div>
+              <h4 class="title"><a href="">Back End </a></h4>
+              <p class="description">Node, Express, MongoDB, MySQL, RESTful API</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Languages</a></h4>
+              <p class="description">Native Proficiency: English and Korean</p>
+              <p class="description">Basic Proficiency: Spanish and Japanese</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End My Services Section -->
+
+    <!-- ======= My Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Projects</span>
+          <h2>Projects</h2>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">Tiny Dreamers</li>
+          <li data-filter=".filter-card">WIP</li>
+          <li data-filter=".filter-web">Applications</li>
+        </ul>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Keyboard Manufacturing</h4>
+              <p>Tiny Dreamers LLC</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="As we delved into the world of Blockchain technology, we also took on the challenge of designing both physical and digital prototypes for mechanical keyboards. With the help of our 3D rendering software, we brought our prototype to life and crafted the keyboard case using aerospace-grade aluminum."><i class="bx bx-plus"></i></a>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/KeyboardManufacturing.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Keyboard Manufacturing</h4>
+              <p>Tiny Dreamers LLC</p>
+              <a href="assets/img/portfolio/KeyboardManufacturing.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="As we delved into the world of Blockchain technology, we also took on the challenge of designing both physical and digital prototypes for mechanical keyboards. With the help of our 3D rendering software, we brought our prototype to life and crafted the keyboard case using aerospace-grade aluminum."><i class="bx bx-plus"></i></a>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>USA Job Search</h4>
+              <p>Full-Stack (MERN)</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Created a job search tool for users to find careers by location and occupation type. Includes a sorting function, a login and signup page, and a bookmarking feature. Built using React, TailwindCSS, MongoDB, Express.js, and Node.js; created using Adzuna API."><i class="bx bx-plus"></i></a>
+              <a href="https://github.com/jameslee0106/JBW" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3.0/Blockchain</h4>
+              <p>Tiny Dreamers LLC</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Established a Web 3.0 brand on the Ethereum blockchain centered around the themes of pursuing and achieving goals."><i class="bx bx-plus"></i></a>
+             
+            </div>
+          </div>
+
+         
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Split The Bill</h4>
+              <p>Ongoing web-based application</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Instead of manually crunching numbers on my calculator to figure out my portion of the dinner bill, I decided to create a web-based application for seamless bill-splitting computations. I'm currently contemplating enhancing this application to allow for entry logging, editing, and user account creation."><i class="bx bx-plus"></i></a>
+              <a href="https://github.com/jameslee0106/STB" target="_blank"class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+
+            
+          </div>
+
   
-  </div>
-  </body>
+
+    
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Personal Sports Hub (React, Chart.JS)</h4>
+              <p>Ongoing web-based application</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Developing a passion project to visually represent data about my favorite sports teams."><i class="bx bx-plus"></i></a>
+              <a href="https://github.com/jameslee0106/Sports" target="_blank" class="details-link"  title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Blog (Angular, PHP, MySQL)</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="
+              ChatGPT
+              Developing a web-based blog application with Angular, PHP, and MySQL, allowing users to create, update, and delete blog entries."><i class="bx bx-plus"></i></a>
+              <a href="https://github.com/jameslee0106/Blog" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+      
+
+        </div>
+
+      </div>
+    </section><!-- End My Portfolio Section -->
+
+    <!-- ======= Contact Me Section ======= -->
+    <!-- <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Contact Me</span>
+          <h2>Contact Me</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-share-alt"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Me</h3>
+                  <p>contact@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Me</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+         
+
+        </div>
+
+      </div> -->
+    <!-- </section>End Contact Me Section
+
+  </main>End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>James Lee</h3>
+
+      <div class="social-links">
+        <a href="https://github.com/jameslee0106" target="_blank" class="twitter"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/james-lee-361820149/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Laura</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
